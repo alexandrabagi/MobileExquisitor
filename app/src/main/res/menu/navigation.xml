@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_negatives"
+        android:icon="@drawable/ic_action_minus_blue"
+        android:title="@string/title_negatives" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_blue"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_positives"
+        android:icon="@drawable/ic_action_plus_blue"
+        android:title="@string/title_positives" />
+
+</menu>

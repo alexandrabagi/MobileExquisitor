@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/icon_reload"
+            android:layout_width="69dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:alpha="1.0"
+            android:src="@mipmap/ic_round_refresh"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <TextView
+            android:id="@+id/reload_when"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="32dp"
+            android:padding="10dp"
+            android:text="@string/intro_reload_what"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/icon_fast_forward"
+            android:layout_width="69dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:alpha="1.0"
+            android:src="@mipmap/ic_round_fastforward"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <TextView
+            android:id="@+id/fast_forward_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/intro_fast_forward_what"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteY="215dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/icon_delete"
+            android:layout_width="69dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:alpha="1.0"
+            android:src="@mipmap/ic_round_del"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+        <TextView
+            android:id="@+id/start_over_what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/intro_start_over_what"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteY="369dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Close"
+        android:textColor="@android:color/background_light" />
+
+
+
+
+
+</LinearLayout>

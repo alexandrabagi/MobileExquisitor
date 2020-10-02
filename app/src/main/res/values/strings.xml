@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SMILe</string>
+    <string name="title_negatives">Negatives</string>
+    <string name="title_home">Home</string>
+    <string name="title_positives">Positives</string>
+    <string name="hello">It works!</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="expand">Expand</string>
+    <string name="refresh">Refresh</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d crimes</string>
+
+    <string name="close">Close</string>
+    <string name="help_button">Help</string>
+    <string name="start_over_button">Start Over</string>
+    <string name="fast_forward_button">Fast Forward</string>
+    <string name="intro_text">Hej! We wanna give you a short introduction on how to use Mobile Exquisitor to explore your photo collection. It won\'t take longer than 3 min.</string>
+    <string name="intro_rating_text">You can always find the current suggestions on the Main Screen. You can rate an image by clicking on it and then swiping it to the right in case you want to rate it as positive, or to the left if you consider it as a negative example. </string>
+    <string name="intro_reload_what">Reload will give you six random images that you haven’t seen so far.</string>
+    <string name="intro_reload_when_to_use">It can help if you get stuck in one topic, and you want to turn the search in a new direction but you don’t want to start an entirely new session.</string>
+    <string name="intro_navigation_text">You can check the images that you rated by going to the Negatives or Positives Screens. To remove one of your ratings, hold your finger on the image.</string>
+    <string name="intro_fast_forward_what">Fast forward will put the six images closest to your positively rated examples on the screen.</string>
+    <string name="intro_fast_forward_when_to_use">It can help if you feel that you are on a right track and want to explore the suggested photos quickly.</string>
+    <string name="when_to_use">When to use?</string>
+    <string name="intro_help_text">Don\'t worry. You don\'t have to remember all of this. You can always look it up pressing the help button.</string>
+    <string name="intro_start_over_what">The start over deletes all your prior ratings and starts a completely new session.</string>
+    <string name="intro_start_over_when_to_use">It can help if you would like to start searching in a new and different category.</string>
+    <string name="updateButton">Update</string>
+</resources>
+

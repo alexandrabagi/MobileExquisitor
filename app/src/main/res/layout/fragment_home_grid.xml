@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.youtube.com/watch?v=VUPM387qyrw -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:columnOrderPreserved="false"
+            android:padding="8dp"
+            android:layout_marginHorizontal="8dp" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+
+                <ImageView
+                    android:id="@+id/galleryImage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+
+                <ImageView
+                    android:id="@+id/galleryImage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+                <ImageView
+                    android:id="@+id/galleryImage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+
+                <ImageView
+                    android:id="@+id/galleryImage4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+                <ImageView
+                    android:id="@+id/galleryImage5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/background_light"
+                app:cardElevation="1dp">
+
+
+                <ImageView
+                    android:id="@+id/galleryImage6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+       <!-- <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:layout_gravity="center">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal">
+
+               <Button
+                   android:id="@+id/button_new_theme"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:background="@color/colorAccent"
+                   android:textColor="#ffffff"
+                   android:text="New Themed Set"
+                   android:layout_margin="20dp"
+                   android:layout_marginTop="100dp"
+                   android:padding="10dp"
+                   >
+               </Button>
+               <Button
+                   android:id="@+id/button_new_random"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:background="@color/colorAccent"
+                   android:textColor="#ffffff"
+                   android:text="New Random Set"
+                   android:layout_margin="20dp"
+                   android:layout_marginTop="100dp"
+                   android:padding="10dp"
+                   >
+               </Button>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal">
+
+               <Button
+                   android:id="@+id/button_so_theme"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:background="@color/colorAccent"
+                   android:textColor="#ffffff"
+                   android:text="Start Over With Themed Set"
+                   android:layout_margin="20dp"
+                   android:layout_marginTop="100dp"
+                   android:padding="10dp"
+                   >
+               </Button>
+               <Button
+                   android:id="@+id/button_so_random"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:background="@color/colorAccent"
+                   android:textColor="#ffffff"
+                   android:text="Start Over With Random Set"
+                   android:layout_margin="20dp"
+                   android:layout_marginTop="100dp"
+                   android:padding="10dp"
+                   >
+               </Button>
+           </LinearLayout>
+
+       </LinearLayout> -->
+
+</LinearLayout>
